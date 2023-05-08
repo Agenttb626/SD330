@@ -20,14 +20,41 @@
                 <li><a href="FinalBooks.html">Books</a></li>
 			</ul>
 		</nav>
-		<section>
-			<h2>Courses</h2>
-			<table id="courses-list">
-
-            </table>
-
-		</section>
-        <script src="FinalProjectJS.js"></script>
+		<table>
+            <thead>
+              <tr>
+                <th>Course Name</th>
+                <th>Books</th>
+              </tr>
+            </thead>
+            <tbody id="courses-table-body">
+            </tbody>
+          </table>
+          <script>
+            fetch('FinalProjectFile.json')
+              .then(response => response.json())
+              .then(data => {
+                const coursesData = data.courses;
+                const coursesTableBody = document.getElementById('courses-table-body');
+                coursesData.forEach(course => {
+                  const row = document.createElement('tr');
+                  const nameCell = document.createElement('td');
+                  const booksCell = document.createElement('td');
+                  nameCell.textContent = course.name;
+                  const booksList = document.createElement('ul');
+                  course.books.forEach(book => {
+                    const bookListItem = document.createElement('li');
+                    bookListItem.textContent = book.title + ' by ' + book.author;
+                    booksList.appendChild(bookListItem);
+                  });
+                  booksCell.appendChild(booksList);
+                  row.appendChild(nameCell);
+                  row.appendChild(booksCell);
+                  coursesTableBody.appendChild(row);
+                });
+              })
+              .catch(error => console.error(error));
+          </script>
 	</main>
 	<footer>
 		<p>&copy; 2023 FoxBooks</p>
