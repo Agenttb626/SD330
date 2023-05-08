@@ -1,0 +1,113 @@
+{
+    "courses": [
+      {
+        "name": "Introduction to Computer Science",
+        "books": [
+          {
+            "title": "Introduction to Algorithms",
+            "author": "Thomas H. Cormen",
+            "publisher": "The MIT Press"
+          },
+          {
+            "title": "Computer Science: An Overview",
+            "author": "J. Glenn Brookshear",
+            "publisher": "Addison Wesley"
+          },
+          {
+            "title": "Code Complete",
+            "author": "Steve McConnell",
+            "publisher": "Microsoft Press"
+          },
+          {
+            "title": "Head First Java",
+            "author": "Kathy Sierra and Bert Bates",
+            "publisher": "O'Reilly Media"
+          }
+        ]
+      },
+      {
+        "name": "English Composition",
+        "books": [
+          {
+            "title": "They Say, I Say",
+            "author": "Gerald Graff and Cathy Birkenstein",
+            "publisher": "W. W. Norton & Company"
+          },
+          {
+            "title": "The Little Seagull Handbook",
+            "author": "Richard Bullock and Michal Brody",
+            "publisher": "W. W. Norton & Company"
+          },
+          {
+            "title": "The Elements of Style",
+            "author": "William Strunk Jr. and E. B. White",
+            "publisher": "Pearson"
+          },
+          {
+            "title": "On Writing Well",
+            "author": "William Zinsser",
+            "publisher": "HarperCollins"
+          }
+        ]
+      },
+      {
+        "name": "Introduction to Psychology",
+        "books": [
+          {
+            "title": "Thinking, Fast and Slow",
+            "author": "Daniel Kahneman",
+            "publisher": "Farrar, Straus and Giroux"
+          },
+          {
+            "title": "Introduction to Psychology",
+            "author": "James W. Kalat",
+            "publisher": "Cengage Learning"
+          },
+          {
+            "title": "An Introduction to Brain and Behavior",
+            "author": "Bryan Kolb and Ian Q. Whishaw",
+            "publisher": "Worth Publishers"
+          },
+          {
+            "title": "The Man Who Mistook His Wife for a Hat",
+            "author": "Oliver Sacks",
+            "publisher": "Simon & Schuster"
+          }
+        ]
+      },
+      {
+        "name": "History of Art",
+        "books": [
+          {
+            "title": "Art History",
+            "author": "Marilyn Stokstad and Michael Cothren",
+            "publisher": "Pearson"
+          },
+          {
+            "title": "Ways of Seeing",
+            "author": "John Berger",
+            "publisher": "Penguin Books"
+          },
+          {
+            "title": "The Story of Art",
+            "author": "E. H. Gombrich",
+            "publisher": "Phaidon Press"
+          },
+          {
+            "title": "Art in Theory 1900-2000: An Anthology of Changing Ideas",
+            "author": "Charles Harrison and Paul Wood",
+            "publisher": "Wiley-Blackwell"
+          }
+        ]
+      },
+      {
+        "name": "Statistics",
+        "books": [
+          {
+            "title": "Statistics for Dummies",
+            "author": "Deborah J. Rumsey",
+            "publisher": "For Dummies"
+          },
+          {
+            "title": "Statistics in Plain
+  

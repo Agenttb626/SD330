@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<style>
+    body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h1 {
+	margin: 0;
+	font-size: 36px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	color:black;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+main {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+section h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.breadcrumb {
+	background-color: #f0f0f0;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.breadcrumb li {
+	display: inline;
+}
+
+.breadcrumb li:not(:last-child):after {
+	content: ">";
+	margin: 0 10px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center
+}  
+
+img {
+		float: right;
+}
+</style>
+
+<head>
+	<title>FoxBooks - Home</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>FoxBooks</h1>
+        <img src="searchbar.jpg">
+        
+	</header>
+	<main>
+		<section>
+			<h2>Welcome to FoxBooks</h2>
+			<p>We are here to provide you with all the of your book needs</p>
+		</section>
+		<nav class="breadcrumb">
+			<ul>
+				<li><a href="FinalMain.html">Home</a></li>
+				<li><a href="FinalCourses.html">Courses</a></li>
+				<li><a href="FinalBooks.html">Books</a></li>
+			</ul>
+		</nav>
+	</main>
+	<footer>
+		<p>&copy; 2023 FoxBooks</p>
+	</footer>
+</body>
+<script src="FinalProjectJS.js"></script>
+</html>
