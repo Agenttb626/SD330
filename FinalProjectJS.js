@@ -19,9 +19,12 @@ fetch('FinalProjectFile.json')
       authorCell.innerText = book.author;
       const publisherCell = document.createElement('td');
       publisherCell.innerText = book.publisher;
+      const priceCell = document.createElement('td');
+      priceCell.innerText = book.price;
       row.appendChild(titleCell);
       row.appendChild(authorCell);
       row.appendChild(publisherCell);
+      row.appendChild(priceCell);
       booksTable.appendChild(row);
     });
   })

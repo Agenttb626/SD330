@@ -6,22 +6,26 @@
           {
             "title": "Introduction to Algorithms",
             "author": "Thomas H. Cormen",
-            "publisher": "The MIT Press"
+            "publisher": "The MIT Press",
+            "price": 120.00
           },
           {
             "title": "Computer Science: An Overview",
             "author": "J. Glenn Brookshear",
-            "publisher": "Addison Wesley"
+            "publisher": "Addison Wesley",
+            "price": 80.00
           },
           {
             "title": "Code Complete",
             "author": "Steve McConnell",
-            "publisher": "Microsoft Press"
+            "publisher": "Microsoft Press",
+            "price": 100.00
           },
           {
             "title": "Head First Java",
             "author": "Kathy Sierra and Bert Bates",
-            "publisher": "O'Reilly Media"
+            "publisher": "O'Reilly Media",
+            "price": 95.00
           }
         ]
       },
@@ -31,22 +35,26 @@
           {
             "title": "They Say, I Say",
             "author": "Gerald Graff and Cathy Birkenstein",
-            "publisher": "W. W. Norton & Company"
+            "publisher": "W. W. Norton & Company",
+            "price": 50.00
           },
           {
             "title": "The Little Seagull Handbook",
             "author": "Richard Bullock and Michal Brody",
-            "publisher": "W. W. Norton & Company"
+            "publisher": "W. W. Norton & Company",
+            "price": 35.00
           },
           {
             "title": "The Elements of Style",
             "author": "William Strunk Jr. and E. B. White",
-            "publisher": "Pearson"
+            "publisher": "Pearson",
+            "price": 25.00
           },
           {
             "title": "On Writing Well",
             "author": "William Zinsser",
-            "publisher": "HarperCollins"
+            "publisher": "HarperCollins",
+            "price": 30.00
           }
         ]
       },
@@ -56,22 +64,26 @@
           {
             "title": "Thinking, Fast and Slow",
             "author": "Daniel Kahneman",
-            "publisher": "Farrar, Straus and Giroux"
+            "publisher": "Farrar, Straus and Giroux",
+            "price": 45.00
           },
           {
             "title": "Introduction to Psychology",
             "author": "James W. Kalat",
-            "publisher": "Cengage Learning"
+            "publisher": "Cengage Learning",
+            "price": 70.00
           },
           {
             "title": "An Introduction to Brain and Behavior",
             "author": "Bryan Kolb and Ian Q. Whishaw",
-            "publisher": "Worth Publishers"
+            "publisher": "Worth Publishers",
+            "price": 60.00
           },
           {
             "title": "The Man Who Mistook His Wife for a Hat",
             "author": "Oliver Sacks",
-            "publisher": "Simon & Schuster"
+            "publisher": "Simon & Schuster",
+            "price": 20.00
           }
         ]
       },
@@ -81,22 +93,26 @@
           {
             "title": "Art History",
             "author": "Marilyn Stokstad and Michael Cothren",
-            "publisher": "Pearson"
+            "publisher": "Pearson",
+            "price": 90.00
           },
           {
             "title": "Ways of Seeing",
             "author": "John Berger",
-            "publisher": "Penguin Books"
+            "publisher": "Penguin Books",
+            "price": 25.00
           },
           {
             "title": "The Story of Art",
             "author": "E. H. Gombrich",
-            "publisher": "Phaidon Press"
+            "publisher": "Phaidon Press",
+            "price": 30.00
           },
           {
             "title": "Art in Theory 1900-2000: An Anthology of Changing Ideas",
             "author": "Charles Harrison and Paul Wood",
-            "publisher": "Wiley-Blackwell"
+            "publisher": "Wiley-Blackwell",
+            "price": 35.00
           }
         ]
       }

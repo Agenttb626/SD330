@@ -35,7 +35,7 @@ nav li:last-child {
 }
 
 nav a {
-	color:black;
+	color:white;
 	text-decoration: none;
 }
 
@@ -59,7 +59,7 @@ section h2 {
 }
 
 .breadcrumb {
-	background-color: #f0f0f0;
+	background-color: #333;
 	padding: 10px;
 	margin-bottom: 20px;
 }
@@ -69,6 +69,7 @@ section h2 {
 }
 
 .breadcrumb li:not(:last-child):after {
+    color: white;
 	content: ">";
 	margin: 0 10px;
 }
@@ -80,13 +81,43 @@ footer {
 	text-align: center
 }  
 
-img {
-		float: right;
-}
+.right {
+    margin-right: 20px;
+  }
+  
+  .left {
+    margin-left: 20px;
+  }
+  
+  .center {
+    text-align: center;
+  }
 
 th {
     text-align: left;
   padding: 8px;
   border: 1px solid black;
+  margin-left: 1000px;
+}
+  table td:nth-child(1),
+  table th:nth-child(4) {
+    border: 1px solid black;
+  }
+
+  table td:nth-child(2),
+table th:nth-child(4) {
+  border: 1px solid black;
+}
+
+table td:nth-child(3),
+table th:nth-child(4) {
+  border: 1px solid black;
+}
+
+table td:nth-child(4),
+table th:nth-child(4) {
+  border: 1px solid black;
+}
+
 }
 </style>
